@@ -1,13 +1,13 @@
 //
-//  RepositoryPatternUITests.swift
-//  RepositoryPatternUITests
+//  iOSDesignPatternsUITests.swift
+//  iOSDesignPatternsUITests
 //
-//  Created by Sharma, Gagandeep on 06/03/23.
+//  Created by Sharma, Gagandeep on 08/03/23.
 //
 
 import XCTest
 
-final class RepositoryPatternUITests: XCTestCase {
+final class iOSDesignPatternsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

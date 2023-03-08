@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  RepositoryPattern
+//  iOSDesignPatterns
 //
-//  Created by Sharma, Gagandeep on 06/03/23.
+//  Created by Sharma, Gagandeep on 08/03/23.
 //
 
 import CoreData
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "RepositoryPattern")
+        container = NSPersistentContainer(name: "iOSDesignPatterns")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

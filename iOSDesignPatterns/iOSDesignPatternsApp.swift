@@ -1,14 +1,14 @@
 //
-//  RepositoryPatternApp.swift
-//  RepositoryPattern
+//  iOSDesignPatternsApp.swift
+//  iOSDesignPatterns
 //
-//  Created by Sharma, Gagandeep on 06/03/23.
+//  Created by Sharma, Gagandeep on 08/03/23.
 //
 
 import SwiftUI
 
 @main
-struct RepositoryPatternApp: App {
+struct iOSDesignPatternsApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
